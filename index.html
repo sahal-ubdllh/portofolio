@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+    <title>Portofolio</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="bg-gray-900  sticky top-0 z-1000">
+        <nav class="text-white w-11/12 md:container flex mx-auto py-4 justify-between items-center">
+            <a href="#" class="text-3xl font-bold">My Portofolio</a>
+            <ul class="menu hidden lg:flex  bg-gray-900 lg:relative lg:top-0 lg:divide-y-0 lg:w-auto">
+                <li class="px-6 py-1 text-center hover:text-gray-500 "><a href="#">Home</a></li>
+                <li class="px-7 py-1 text-center hover:text-gray-500"><a href="#about">About</a></li>
+                <li class="px-7 py-1 text-center hover:text-gray-500"><a href="#portofolio">Projects</a></li>
+                <li class="px-7 py-1 text-center hover:text-gray-500"><a href="#services">Services</a></li>
+                <li class="px-7 py-1 text-center hover:text-gray-500"><a href="#">Contact</a></li>
+                <li class="px-7 py-1 text-center hover:text-gray-500 lg:hover:text-white"><a class="lg:border-2 lg:border-orange-600 lg:py-2 lg:px-5 lg:rounded-xl lg:hover:bg-orange-600 text-white transition" href="#">Lets Talk!</a></li>
+            </ul>
+            <button class="hamburger-menu text-2xl lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark hidden"></i>
+            </button>
+        </nav>
+    </header>
+
+    
+
+    <section class="bg-gray-900">
+        <div class="container mx-auto text-center text-white h-screen grid grid-cols-2 items-center justify-center">
+            <div class="mx-auto w-11/12 lg:w-3/4 ">
+                <h3 class="text-3xl font-bold text-left mb-2 ">Hi There! 👋</h3>
+                <h1 class="text-4xl font-bold text-left mb-5 lg:text-5xl">I'm Sahal Ubaidillah Gunardo</h1>
+                <h2 class="text-2xl text-left mb-5">FRONT-END DEVELOPER | UI/UX ENTHUSIAST</h2>
+
+                <p class="text-gray-400 mb-5 text-left">I craft responsive and interactive websites with a strong focus on clean design and great user experience.</p>
+                <a href="#" class="bg-orange-600 text-white py-2 px-5 rounded-xl hover:bg-orange-900 ">My Projects</a>
+            </div>
+            <div>
+                <img src="./aset/aset-1.png" alt="" class="w-6/8 object-cover rounded-xl justify-center mx-auto hover:scale-105 transition-transform duration-300">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="w-11/12 md:container mx-auto py-25">
+        <div class="flex space-x-10 items-start">
+            <img src="./aset/fotoprofil.png" alt="" class="w-24 md:w-1/3">
+            <div class="my-auto">
+                <h3 class="text-3xl font-bold mb-5">About me</h3>
+                <p class="mb-5">I am a computer science student at Majalengka University. I am interested in programming, especially website development, because I enjoy creating websites. I can design user interfaces and then try to build the website. I have completed several projects. I have strong problem-solving skills and work well in a team.</p>
+            
+
+                <ul class="md:flex md:space-x-5 ">
+                    <li><a href=""><i class="fa-brands fa-tiktok"></i> Tiktok</a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                    <li><a href=""><i class="fa-brands fa-github"></i> Github</a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin"></i> Linkedin</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="bg-gray-200 py-20">
+        <div class="w-11/12 md:container mx-auto">
+            <h3 class="text-4xl font-bold mb-5 text-center">Services</h3>
+            <p class="text-gray-500 text-center mb-5">Services I can provide</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Service 1 -->
+                <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+                    <img src="https://placehold.co/100" alt="">
+                    <div>
+                        <h4 class="text-2xl font-bold  mb-5">Data Analytics</h4>
+                        <p class="text-gray-500 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, dolor?</p>
+                        <a href="" class="hover:text-gray-500">read more</a>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+                    <img src="https://placehold.co/100" alt="">
+                    <div>
+                        <h4 class="text-2xl font-bold  mb-5">Data Analytics</h4>
+                        <p class="text-gray-500 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, dolor?</p>
+                        <a href="" class="hover:text-gray-500">read more</a>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+                    <img src="https://placehold.co/100" alt="">
+                    <div>
+                        <h4 class="text-2xl font-bold  mb-5">Data Analytics</h4>
+                        <p class="text-gray-500 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, dolor?</p>
+                        <a href="" class="hover:text-gray-500">read more</a>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+                    <img src="https://placehold.co/100" alt="">
+                    <div>
+                        <h4 class="text-2xl font-bold  mb-5">Data Analytics</h4>
+                        <p class="text-gray-500 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, dolor?</p>
+                        <a href="" class="hover:text-gray-500">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portofolio" class="py-20 bg-white">
+        <h3 class="text-5xl font-bold text-center mb-5">Portofolio</h3>
+        <p class="text-gray-500 mb-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nemo reiciendis quam.</p>
+        <div class="grid grid-cols-2 md:grid-cols-4 w-11/12 md:container mx-auto gap-6">
+            <!-- portofolio 1 -->
+             <div class="shadow-xl">
+                <a href="">
+                    <img src="https://placehold.co/600x400" alt="" class="w-full">
+                    <div class="py-3 px-5">
+                        <h4 class="text-center font-bold">Website 1</h4>
+                    </div>
+                </a>
+             </div>
+            <!-- portofolio 2 -->
+             <div class="shadow-xl">
+                <a href="">
+                    <img src="https://placehold.co/600x400" alt="" class="w-full">
+                    <div class="py-3 px-5">
+                        <h4 class="text-center font-bold">Website 2</h4>
+                    </div>
+                </a>
+             </div>
+            <!-- portofolio 3 -->
+             <div class="shadow-xl">
+                <a href="">
+                    <img src="https://placehold.co/600x400" alt="" class="w-full">
+                    <div class="py-3 px-5">
+                        <h4 class="text-center font-bold">Website 3</h4>
+                    </div>
+                </a>
+             </div>
+            <!-- portofolio 4 -->
+             <div class="shadow-xl">
+                <a href="">
+                    <img src="https://placehold.co/600x400" alt="" class="w-full">
+                    <div class="py-3 px-5">
+                        <h4 class="text-center font-bold">Website 4</h4>
+                    </div>
+                </a>
+             </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="py-5 text-center font-bold">
+        &copy; 2025 Portofolio
+    </footer>
+<script src="script.js"></script>
+  </body>
+</html>
